@@ -11,16 +11,19 @@ We have been engaged by Maria, The Chief Data Scientist for the PyCity School Di
 	•	The average reading score for each grade level from each school.
 	•	The scores by school spending per student, by school size , and by school type 		(District or Charter).
 	•	This analysis was limited to the grades 9 through 12.
-	•	Due to a report of grade tampering for 9th graders at Thomas High School the data must 		be cleaned to maintain accuracy.
+	
+### Due to a report of grade tampering for 9th graders at Thomas High School the data must be cleaned to maintain accuracy and then the analysis run a second time.
 
 ## Resources
 The resources were provided by the Elections employee and included:
+
 •	Data Source: schools_complete.csv and students_complete.csv files.
-•	Software: Python 3.7.6, Jupyter Notebook version 6.4.8, Pandas version 1.4.5 and Numby version 
+
+•	Software: Python 3.7.6, Jupyter Notebook version 6.4.8, Pandas version 1.4.5 and Numby version 1.21.5
 
 ## Overview of The School District Analysis
 
-The results from the PyCity School District Analysis of the 9th through 12th graders is as follows:
+The revised results from the PyCity School District Analysis of the 9th through 12th graders is as follows:
 
 ### District Summary DataFrame
 
@@ -80,7 +83,7 @@ before:
 after:
 ![__](https://github.com/Johnnytoobadman/School_District_Analysis/blob/main/PNG%20Files/School%20Summary%20DataFrame.png)
 
-### How Does replacing the ninth graders math and reading scores affest Thomas High School's performance relative to other schools.
+### How Does replacing the ninth graders math and reading scores affect Thomas High School's performance relative to other schools.
 As stated earlier by nullyfying the THS 9th graders scores the scores for THS changed slightly down.  Other schools scores remained unchanged.
 
 before Math:
